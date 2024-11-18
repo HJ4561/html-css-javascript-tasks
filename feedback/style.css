@@ -1,0 +1,62 @@
+.feedback-container {
+    background-color: rgb(233, 254, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+.feedback-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.feedback-option {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.feedback-option.unhappy {
+    background-color: rgb(233, 254, 255);
+}
+
+.feedback-option.neutral {
+    background-color: rgb(233, 254, 255);
+}
+
+.feedback-option.satisfied {
+    background-color:rgb(233, 254, 255);
+}
+.send-review-button {
+    background-color: rgb(1, 137, 135);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-option.selected{
+    background-color: rgb(197, 240, 199);
+    border: 1px solid#ccc;
+}
+h2{
+    color: rgb(53, 110, 56);
+}
+.feedback-text{
+    font-size: 12px;
+    margin-top: 5px;
+    color:  rgb(53, 110, 56);
+}
+.emoji{
+    font-size: 30px;
+}

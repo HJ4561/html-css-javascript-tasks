@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Steps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="steps">
+            <span class="circle active">✓<span class="label">Start</span></span>
+            <span class="circle">✓<span class="label">Step1</span></span>
+            <span class="circle">✓<span class="label">Step2</span></span>
+            <span class="circle">✓<span class="label">Step3</span></span>
+            <span class="circle">✓<span class="label">Complete</span></span>
+            <div class="progress-bar">
+                <span class="indicator"></span>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev" disabled><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
